@@ -13,6 +13,7 @@
 		2F0674572ABE38DF00C06759 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0674562ABE38DF00C06759 /* Preview Assets.xcassets */; };
 		2F0674612ABE391200C06759 /* Tarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0674602ABE391200C06759 /* Tarea.swift */; };
 		2F0674642ABE395200C06759 /* TareaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0674632ABE395200C06759 /* TareaViewModel.swift */; };
+		2F0674672ABE3B7100C06759 /* AgregarTareaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0674662ABE3B7100C06759 /* AgregarTareaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2F0674562ABE38DF00C06759 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F0674602ABE391200C06759 /* Tarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea.swift; sourceTree = "<group>"; };
 		2F0674632ABE395200C06759 /* TareaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareaViewModel.swift; sourceTree = "<group>"; };
+		2F0674662ABE3B7100C06759 /* AgregarTareaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarTareaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +57,10 @@
 		2F06744E2ABE38DD00C06759 /* Umvel-NTT */ = {
 			isa = PBXGroup;
 			children = (
+				2F0674652ABE3A1F00C06759 /* View */,
 				2F0674622ABE394400C06759 /* ViewModel */,
 				2F06745D2ABE38EC00C06759 /* Model */,
 				2F06744F2ABE38DD00C06759 /* Umvel_NTTApp.swift */,
-				2F0674512ABE38DD00C06759 /* ContentView.swift */,
 				2F0674532ABE38DF00C06759 /* Assets.xcassets */,
 				2F0674552ABE38DF00C06759 /* Preview Content */,
 			);
@@ -87,6 +89,15 @@
 				2F0674632ABE395200C06759 /* TareaViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2F0674652ABE3A1F00C06759 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F0674512ABE38DD00C06759 /* ContentView.swift */,
+				2F0674662ABE3B7100C06759 /* AgregarTareaView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 				2F0674642ABE395200C06759 /* TareaViewModel.swift in Sources */,
 				2F0674522ABE38DD00C06759 /* ContentView.swift in Sources */,
 				2F0674502ABE38DD00C06759 /* Umvel_NTTApp.swift in Sources */,
+				2F0674672ABE3B7100C06759 /* AgregarTareaView.swift in Sources */,
 				2F0674612ABE391200C06759 /* Tarea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +316,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +346,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
