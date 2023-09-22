@@ -11,6 +11,7 @@
 		2F0674522ABE38DD00C06759 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0674512ABE38DD00C06759 /* ContentView.swift */; };
 		2F0674542ABE38DF00C06759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0674532ABE38DF00C06759 /* Assets.xcassets */; };
 		2F0674572ABE38DF00C06759 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0674562ABE38DF00C06759 /* Preview Assets.xcassets */; };
+		2F0674612ABE391200C06759 /* Tarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0674602ABE391200C06759 /* Tarea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2F0674512ABE38DD00C06759 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F0674532ABE38DF00C06759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F0674562ABE38DF00C06759 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F0674602ABE391200C06759 /* Tarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		2F06744E2ABE38DD00C06759 /* Umvel-NTT */ = {
 			isa = PBXGroup;
 			children = (
+				2F06745D2ABE38EC00C06759 /* Model */,
 				2F06744F2ABE38DD00C06759 /* Umvel_NTTApp.swift */,
 				2F0674512ABE38DD00C06759 /* ContentView.swift */,
 				2F0674532ABE38DF00C06759 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				2F0674562ABE38DF00C06759 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F06745D2ABE38EC00C06759 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F0674602ABE391200C06759 /* Tarea.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				2F0674522ABE38DD00C06759 /* ContentView.swift in Sources */,
 				2F0674502ABE38DD00C06759 /* Umvel_NTTApp.swift in Sources */,
+				2F0674612ABE391200C06759 /* Tarea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
