@@ -7,22 +7,23 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct ContentView: View {
     @State private var mostrandoModal: Bool = false
     @ObservedObject var tareaViewModel = TareaViewModel()
+    @State private var searchText = ""
     
     var body: some View {
         NavigationView {
             Group {
-                if tareaViewModel.tareas.isEmpty {
+                if tareaViewModel.tareas.isEmpty && searchText.isEmpty {
                     Text("No hay tareas")
                         .foregroundColor(.gray)
                         .italic()
                 } else {
                     List {
-                        ForEach(tareaViewModel.tareas) { tarea in
+                        ForEach(tareaViewModel.tareas.filter {
+                            searchText.isEmpty ? true : $0.nombre.lowercased().contains(searchText.lowercased())
+                        }) { tarea in
                             HStack {
                                 Text(tarea.nombre)
                                 
@@ -54,9 +55,11 @@ struct ContentView: View {
             .sheet(isPresented: $mostrandoModal) {
                 AgregarTareaView(tareaViewModel: tareaViewModel, mostrandoModal: $mostrandoModal)
             }
+            .searchable(text: $searchText)
         }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
