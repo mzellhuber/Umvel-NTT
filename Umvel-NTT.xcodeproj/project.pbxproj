@@ -14,6 +14,7 @@
 		2F0674612ABE391200C06759 /* Tarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0674602ABE391200C06759 /* Tarea.swift */; };
 		2F0674642ABE395200C06759 /* TareaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0674632ABE395200C06759 /* TareaViewModel.swift */; };
 		2F0674672ABE3B7100C06759 /* AgregarTareaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0674662ABE3B7100C06759 /* AgregarTareaView.swift */; };
+		2F7CFA842AC1EA550087AB19 /* TareasPendientesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7CFA832AC1EA550087AB19 /* TareasPendientesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2F0674602ABE391200C06759 /* Tarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea.swift; sourceTree = "<group>"; };
 		2F0674632ABE395200C06759 /* TareaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareaViewModel.swift; sourceTree = "<group>"; };
 		2F0674662ABE3B7100C06759 /* AgregarTareaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarTareaView.swift; sourceTree = "<group>"; };
+		2F7CFA832AC1EA550087AB19 /* TareasPendientesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareasPendientesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				2F0674512ABE38DD00C06759 /* ContentView.swift */,
 				2F0674662ABE3B7100C06759 /* AgregarTareaView.swift */,
+				2F7CFA832AC1EA550087AB19 /* TareasPendientesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F0674642ABE395200C06759 /* TareaViewModel.swift in Sources */,
+				2F7CFA842AC1EA550087AB19 /* TareasPendientesView.swift in Sources */,
 				2F0674522ABE38DD00C06759 /* ContentView.swift in Sources */,
 				2F0674502ABE38DD00C06759 /* Umvel_NTTApp.swift in Sources */,
 				2F0674672ABE3B7100C06759 /* AgregarTareaView.swift in Sources */,

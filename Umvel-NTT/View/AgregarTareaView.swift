@@ -23,14 +23,15 @@ struct AgregarTareaView: View {
             }, trailing: Button("Agregar") {
                 tareaViewModel.agregarTarea(nombre: nombreTarea)
                 mostrandoModal = false
-            })
+            }
+            .disabled(nombreTarea.isEmpty))
         }
     }
 }
-
 
 struct AgregarTareaView_Previews: PreviewProvider {
     static var previews: some View {
         AgregarTareaView(tareaViewModel: TareaViewModel(), mostrandoModal: .constant(true))
     }
 }
+
